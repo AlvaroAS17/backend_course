@@ -1,0 +1,21 @@
+{
+  "name": "p1",
+  "version": "1.0.0",
+  "description": "comandos npm",
+  "main": "s3.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js",
+    "build": "echo 'cuerpo y mente'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvaro Alarcon",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
